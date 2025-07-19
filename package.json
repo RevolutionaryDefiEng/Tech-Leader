@@ -1,0 +1,14 @@
+{
+  "name": "david-enyi-portfolio",
+  "version": "1.0.0",
+  "description": "David Enyi's Professional Portfolio Website",
+  "main": "index.html",
+  "scripts": {
+    "build": "echo 'No build step required for static site'",
+    "start": "echo 'Static site - no start command needed'"
+  },
+  "keywords": ["portfolio", "tech", "ai", "education"],
+  "author": "David Enyi",
+  "license": "MIT"
+}
+

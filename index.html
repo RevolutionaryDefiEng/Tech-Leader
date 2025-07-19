@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>David Enyi - Tech Visionary, AI Strategist, and EdTech Pioneer</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span>David Enyi</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#media">Media</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button class="download-cv-btn">
+                    <i class="fas fa-download"></i>
+                    Download CV
+                </button>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero-section">
+        <div class="hero-background">
+            <div class="network-pattern"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-left">
+                <h1 class="hero-title">David Enyi</h1>
+                <p class="hero-subtitle">Tech Leader & AI Innovator</p>
+                <p class="hero-description">Transforming Africa through Technology & Education. CEO of B&B Creators, pioneering AI solutions for the least privileged.</p>
+                <div class="hero-buttons">
+                    <button class="btn-primary" onclick="scrollToSection('projects')">
+                        View My Work
+                    </button>
+                    <button class="btn-secondary" onclick="scrollToSection('contact')">
+                        Get In Touch
+                    </button>
+                </div>
+            </div>
+            <div class="hero-right">
+                <div class="profile-image-container">
+                    <img src="/assets/images/hero_image.jpg" alt="David Enyi" class="profile-image">
+                    <div class="profile-badge">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">Multifaceted Problem Solver with a background in Aerospace and Industrial Engineering, transforming education and technology across Africa.</p>
+            </div>
+            
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-icon blue">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <div class="stat-number" data-target="165">0+</div>
+                    <div class="stat-label">Youth Trained in AI Fundamentals</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon green">
+                        <i class="fas fa-chalkboard-teacher"></i>
+                    </div>
+                    <div class="stat-number" data-target="50">0+</div>
+                    <div class="stat-label">Educators Empowered with AI Tools</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon orange">
+                        <i class="fas fa-bullseye"></i>
+                    </div>
+                    <div class="stat-number" data-target="1260">0+</div>
+                    <div class="stat-label">Corps Members Reached</div>
+                </div>
+            </div>
+
+            <div class="about-content">
+                <div class="about-text">
+                    <p>As a lifelong learner with a strong passion for innovation and solving problems using first principles, I believe in being the change I desire to see in the world. My journey spans from teaching high-level Mathematics in UAE schools to spearheading online & blended learning techniques during the COVID-19 pandemic.</p>
+                    
+                    <p>Today, as CEO of B&B Creators, I lead a rapidly growing digital agency that empowers brands to scale through strategic online presence and cutting edge digital solutions. Under my direction, we also deliver bespoke AI-powered tools across education, public health, enterprise, and consumer sectors. Notably, my work led to the creation of African Intelligence; Africa's first open source, community-driven learning management system powered by artificial intelligence.</p>
+                </div>
+                <div class="about-image">
+                    <div class="laptop-mockup">
+                        <img src="/assets/images/hero_image.jpg" alt="African Intelligence Platform" class="mockup-screen">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="achievements-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Key Initiatives & Achievements</h2>
+                <p class="section-subtitle">Innovative projects and initiatives that have made a real impact on the tech ecosystem in Nigeria and beyond.</p>
+            </div>
+            
+            <div class="achievements-grid">
+                <div class="achievement-card">
+                    <div class="achievement-icon blue">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>African Intelligence Platform</h3>
+                    <p>Open-source AI-powered learning management system designed for African context</p>
+                    <div class="project-tags">
+                        <span class="tag">AI/ML</span>
+                        <span class="tag">EdTech</span>
+                        <span class="tag">Open Source</span>
+                    </div>
+                    <button class="expand-btn" onclick="openModal('african-intelligence')">
+                        <i class="fas fa-external-link-alt"></i>
+                    </button>
+                </div>
+                
+                <div class="achievement-card">
+                    <div class="achievement-icon blue">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>NYSC AI Innovators Initiative</h3>
+                    <p>Transforming national service into tech career launchpad for 1,260+ corps members</p>
+                    <div class="project-tags">
+                        <span class="tag">Training</span>
+                        <span class="tag">Career Development</span>
+                        <span class="tag">AI</span>
+                    </div>
+                    <button class="expand-btn" onclick="openModal('nysc-initiative')">
+                        <i class="fas fa-external-link-alt"></i>
+                    </button>
+                </div>
+                
+                <div class="achievement-card">
+                    <div class="achievement-icon blue">
+                        <i class="fas fa-chalkboard-teacher"></i>
+                    </div>
+                    <h3>AI in Education Program</h3>
+                    <p>Empowering 50+ teachers with AI tools for enhanced learning outcomes</p>
+                    <div class="project-tags">
+                        <span class="tag">Teacher Training</span>
+                        <span class="tag">AI Tools</span>
+                        <span class="tag">Education</span>
+                    </div>
+                    <button class="expand-btn" onclick="openModal('ai-education')">
+                        <i class="fas fa-external-link-alt"></i>
+                    </button>
+                </div>
+                
+                <div class="achievement-card">
+                    <div class="achievement-icon blue">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3>AI for Youth Empowerment</h3>
+                    <p>Training 165+ unemployed youth in machine learning and AI skills</p>
+                    <div class="project-tags">
+                        <span class="tag">Youth Development</span>
+                        <span class="tag">Machine Learning</span>
+                        <span class="tag">Employment</span>
+                    </div>
+                    <button class="expand-btn" onclick="openModal('youth-empowerment')">
+                        <i class="fas fa-external-link-alt"></i>
+                    </button>
+                </div>
+                
+                <div class="achievement-card">
+                    <div class="achievement-icon blue">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>African Intelligence Hackathon</h3>
+                    <p>First-of-its-kind hackathon with 100 participants, 7 teams, fostering developer community in Jos</p>
+                    <div class="project-tags">
+                        <span class="tag">Hackathon</span>
+                        <span class="tag">Community</span>
+                        <span class="tag">Open Source</span>
+                    </div>
+                    <button class="expand-btn" onclick="openModal('hackathon')">
+                        <i class="fas fa-external-link-alt"></i>
+                    </button>
+                </div>
+                
+                <div class="achievement-card">
+                    <div class="achievement-icon blue">
+                        <i class="fas fa-music"></i>
+                    </div>
+                    <h3>AI-Powered Afrobeats Label</h3>
+                    <p>Led Africa's first AI-generated music label with visionary songwriters and producers</p>
+                    <div class="project-tags">
+                        <span class="tag">AI Music</span>
+                        <span class="tag">Afrobeats</span>
+                        <span class="tag">Innovation</span>
+                    </div>
+                    <button class="expand-btn" onclick="openModal('afrobeats-label')">
+                        <i class="fas fa-external-link-alt"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience-section">
+        <div class="container">
+            <div class="experience-content">
+                <div class="experience-timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-dot blue"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-year">2024 - Present</span>
+                            <h3>CEO, Bold & Beautiful Creators</h3>
+                            <p>Leading a fast-growing creative digital agency, developing AI solutions and the African Intelligence LMS platform.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-dot teal"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-year">2019 - 2024</span>
+                            <h3>EdTech Implementation Specialist</h3>
+                            <p>Teaching high-level Mathematics in UAE schools, spearheading online & blended learning during COVID-19.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-dot orange"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-year">Education</span>
+                            <h3>Aerospace & Industrial Engineering</h3>
+                            <p>Strong technical foundation with focus on problem-solving and innovation.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="certifications">
+                        <h4>Certifications</h4>
+                        <div class="cert-list">
+                            <span class="cert-item">Agile Management (TDRA, UAE)</span>
+                            <span class="cert-item">Enhancing Student Engagement (Alef Education)</span>
+                            <span class="cert-item">Digital Learning Environment (Ministry of Education - Dubai)</span>
+                            <span class="cert-item">Differentiation Strategies (Ministry of Education - Dubai)</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skills-section">
+                    <h3>Core Skills</h3>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span>Artificial Intelligence</span>
+                                <span>95%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span>Educational Technology</span>
+                                <span>98%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 98%"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span>Leadership & Strategy</span>
+                                <span>92%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 92%"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span>Community Building</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span>Agile Management</span>
+                                <span>88%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 88%"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span>Curriculum Design</span>
+                                <span>95%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span>Virtual Reality</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span>Blockchain/Web3</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-subtitle">Innovative solutions and initiatives driving technological advancement across Africa</p>
+            </div>
+            
+            <div class="projects-grid">
+                <div class="project-card" data-project="ai-platform">
+                    <div class="project-image">
+                        <img src="/assets/images/hero_image.jpg" alt="African Intelligence Platform">
+                        <div class="project-overlay">
+                            <button class="view-project-btn" onclick="expandProject('ai-platform')">
+                                <i class="fas fa-external-link-alt"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>African Intelligence Platform</h3>
+                        <p>Open-source AI-powered learning management system designed for African context</p>
+                        <div class="project-tags">
+                            <span class="tag">AI/ML</span>
+                            <span class="tag">EdTech</span>
+                            <span class="tag">Open Source</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-project="nysc">
+                    <div class="project-image">
+                        <img src="/assets/images/hero_image.jpg" alt="NYSC AI Innovators">
+                        <div class="project-overlay">
+                            <button class="view-project-btn" onclick="expandProject('nysc')">
+                                <i class="fas fa-external-link-alt"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>NYSC AI Innovators Initiative</h3>
+                        <p>Transforming national service into tech career launchpad for 1,260+ corps members</p>
+                        <div class="project-tags">
+                            <span class="tag">Training</span>
+                            <span class="tag">Career Development</span>
+                            <span class="tag">AI</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-project="education">
+                    <div class="project-image">
+                        <img src="/assets/images/hero_image.jpg" alt="AI in Education">
+                        <div class="project-overlay">
+                            <button class="view-project-btn" onclick="expandProject('education')">
+                                <i class="fas fa-external-link-alt"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>AI in Education Program</h3>
+                        <p>Empowering 50+ teachers with AI tools for enhanced learning outcomes</p>
+                        <div class="project-tags">
+                            <span class="tag">Teacher Training</span>
+                            <span class="tag">AI Tools</span>
+                            <span class="tag">Education</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-project="youth">
+                    <div class="project-image">
+                        <img src="/assets/images/hero_image.jpg" alt="Youth Empowerment">
+                        <div class="project-overlay">
+                            <button class="view-project-btn" onclick="expandProject('youth')">
+                                <i class="fas fa-external-link-alt"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>AI for Youth Empowerment</h3>
+                        <p>Training 165+ unemployed youth in machine learning and AI skills</p>
+                        <div class="project-tags">
+                            <span class="tag">Youth Development</span>
+                            <span class="tag">Machine Learning</span>
+                            <span class="tag">Employment</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Media Integration Section -->
+    <section id="media" class="media-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Media Integration</h2>
+                <p class="section-subtitle">Connect with me across different platforms and explore my work</p>
+            </div>
+            
+            <div class="media-grid">
+                <div class="media-card">
+                    <div class="media-icon youtube">
+                        <i class="fab fa-youtube"></i>
+                    </div>
+                    <h3>Tech Talks & Interviews</h3>
+                    <p>Watch my latest tech talks and TV interviews</p>
+                    <a href="https://www.youtube.com/@BBcreators/videos" target="_blank" class="media-link">View on YouTube</a>
+                </div>
+                
+                <div class="media-card">
+                    <div class="media-icon instagram">
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                    <h3>Behind the Scenes</h3>
+                    <p>Follow my journey and daily insights</p>
+                    <a href="https://www.instagram.com/b_bcreators/" target="_blank" class="media-link">View on Instagram</a>
+                </div>
+                
+                <div class="media-card">
+                    <div class="media-icon linkedin">
+                        <i class="fab fa-linkedin"></i>
+                    </div>
+                    <h3>Professional Network</h3>
+                    <p>Connect with me professionally</p>
+                    <a href="https://www.linkedin.com/in/david-enyi-06b8a7127/" target="_blank" class="media-link">View on LinkedIn</a>
+                </div>
+                
+                <div class="media-card">
+                    <div class="media-icon blog">
+                        <i class="fas fa-blog"></i>
+                    </div>
+                    <h3>CreativeTech Africa Blog</h3>
+                    <p>Read my latest articles and insights</p>
+                    <a href="https://creativetechafrica.blog" target="_blank" class="media-link">Visit Blog</a>
+                </div>
+            </div>
+            
+            <!-- Learning Platform Highlight -->
+            <div class="platform-highlight">
+                <div class="platform-content">
+                    <div class="platform-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="platform-text">
+                        <h3>African Intelligence Learning Platform</h3>
+                        <p>Explore our comprehensive AI education platform built specifically for Africa</p>
+                        <a href="https://www.africaninteligence.tech" target="_blank" class="platform-link">
+                            <i class="fas fa-external-link-alt"></i>
+                            Visit Platform
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">Let's collaborate on transforming Africa through technology and education</p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <span class="contact-label">Phone</span>
+                            <span class="contact-value">+2347073425222</span>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <span class="contact-label">Email</span>
+                            <span class="contact-value">d.enyi@yahoo.com</span>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                        <div class="contact-details">
+                            <span class="contact-label">Blog</span>
+                            <span class="contact-value">CreativeTech Africa Blog</span>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-building"></i>
+                        </div>
+                        <div class="contact-details">
+                            <span class="contact-label">Company</span>
+                            <span class="contact-value">CEO - B&B Creators</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/david-enyi-06b8a7127/" target="_blank" class="social-link linkedin">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://www.instagram.com/b_bcreators/" target="_blank" class="social-link instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://www.youtube.com/@BBcreators/videos" target="_blank" class="social-link youtube">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                    <a href="https://creativetechafrica.blog" target="_blank" class="social-link blog">
+                        <i class="fas fa-blog"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="final-statement">
+                <p>As a lifelong learner, I solve problems using first principles and a passion for innovation. My vision is clear: empower Africans with tech skills to compete globally and lift communities from the grassroots up. Whether in classrooms, camps, or code, I bring people together to shape Africa's digital renaissance.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Details Modal -->
+    <div id="project-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="modal-body"></div>
+        </div>
+    </div>
+
+    <script src="/assets/js/script.js"></script>
+</body>
+</html>
+
+
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Photo Gallery</h2>
+                <p class="section-subtitle">A visual journey through my professional engagements and events</p>
+            </div>
+            
+            <div class="slideshow-container">
+                <div class="slideshow-wrapper">
+                    <div class="slide active" data-achievement="nysc-initiative">
+                        <img src="/assets/images/nysc_training_1.jpg" alt="NYSC AI Innovators Initiative - Training Session">
+                        <div class="slide-overlay">
+                            <div class="slide-content">
+                                <h3>NYSC AI Innovators Initiative</h3>
+                                <p>Training 1,260+ corps members in Plateau State on AI and digital skills</p>
+                                <span class="achievement-tag">NYSC Initiative</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="slide" data-achievement="thought-leadership">
+                        <img src="/assets/images/world_youth_skills_day.jpg" alt="World Youth Skills Day 2025 - Keynote Speaker">
+                        <div class="slide-overlay">
+                            <div class="slide-content">
+                                <h3>World Youth Skills Day 2025</h3>
+                                <p>Keynote speaker on "Youth Empowerment Through AI and Digital Skills"</p>
+                                <span class="achievement-tag">Thought Leadership</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="slide" data-achievement="african-intelligence">
+                        <img src="/assets/images/vr_presentation.jpg" alt="VR Technology Presentation">
+                        <div class="slide-overlay">
+                            <div class="slide-content">
+                                <h3>VR Technology Integration</h3>
+                                <p>Demonstrating virtual reality applications in the African Intelligence platform</p>
+                                <span class="achievement-tag">African Intelligence</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="slide" data-achievement="nysc-initiative">
+                        <img src="/assets/images/nysc_training_2.jpg" alt="NYSC Training Session - Interactive Learning">
+                        <div class="slide-overlay">
+                            <div class="slide-content">
+                                <h3>Interactive AI Training</h3>
+                                <p>Hands-on learning session with NYSC corps members</p>
+                                <span class="achievement-tag">NYSC Initiative</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="slide" data-achievement="nysc-initiative">
+                        <img src="/assets/images/award_ceremony.jpg" alt="Award Ceremony - Recognition">
+                        <div class="slide-overlay">
+                            <div class="slide-content">
+                                <h3>Recognition Ceremony</h3>
+                                <p>Presenting certificates to outstanding participants in the AI training program</p>
+                                <span class="achievement-tag">NYSC Initiative</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="slide" data-achievement="youth-empowerment">
+                        <img src="/assets/images/ai_vr_training.jpg" alt="AI and VR Training Program">
+                        <div class="slide-overlay">
+                            <div class="slide-content">
+                                <h3>AI & VR Training Program</h3>
+                                <p>Comprehensive training on artificial intelligence and virtual reality technologies</p>
+                                <span class="achievement-tag">Youth Empowerment</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="slide" data-achievement="youth-empowerment">
+                        <img src="/assets/images/tech_bootcamp.jpg" alt="Tech Bootcamp - Unlock Your Potential">
+                        <div class="slide-overlay">
+                            <div class="slide-content">
+                                <h3>Tech Industry Bootcamp</h3>
+                                <p>Empowering youth with skills for the booming tech industry</p>
+                                <span class="achievement-tag">Youth Empowerment</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="slide" data-achievement="african-intelligence">
+                        <img src="/assets/images/medical_vr.jpg" alt="Medical VR Training Innovation">
+                        <div class="slide-overlay">
+                            <div class="slide-content">
+                                <h3>Medical VR Innovation</h3>
+                                <p>Revolutionizing medical training with virtual reality technology</p>
+                                <span class="achievement-tag">African Intelligence</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Navigation arrows -->
+                <button class="slide-nav prev" onclick="changeSlide(-1)">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button class="slide-nav next" onclick="changeSlide(1)">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+                
+                <!-- Slide indicators -->
+                <div class="slide-indicators">
+                    <span class="indicator active" onclick="currentSlide(1)"></span>
+                    <span class="indicator" onclick="currentSlide(2)"></span>
+                    <span class="indicator" onclick="currentSlide(3)"></span>
+                    <span class="indicator" onclick="currentSlide(4)"></span>
+                    <span class="indicator" onclick="currentSlide(5)"></span>
+                    <span class="indicator" onclick="currentSlide(6)"></span>
+                    <span class="indicator" onclick="currentSlide(7)"></span>
+                    <span class="indicator" onclick="currentSlide(8)"></span>
+                </div>
+                
+                <!-- Achievement filter buttons -->
+                <div class="achievement-filters">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="nysc-initiative">NYSC Initiative</button>
+                    <button class="filter-btn" data-filter="youth-empowerment">Youth Empowerment</button>
+                    <button class="filter-btn" data-filter="african-intelligence">African Intelligence</button>
+                    <button class="filter-btn" data-filter="thought-leadership">Thought Leadership</button>
+                </div>
+            </div>
+        </div>
+    </section>
